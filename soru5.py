@@ -54,11 +54,11 @@ for kod in range(len(komutlar)-1):
             if sinyal(parametre[1]) == "Geçersiz":
                 print("ikinci bolum hatali")
             elif cihaz(parametre[2]) == "Geçersiz":
-                print("ikinci bolum hatali")
+                print("ucuncu bolum hatali")
             elif durum(parametre[3]) == "Geçersiz":
-                print("ikinci bolum hatali")
+                print("dorduncu bolum hatali")
             elif cevap(parametre[4]) == "Geçersiz":
-                print("ikinci bolum hatali")
+                print("besinci bolum hatali")
             else:
                 print("Kod Tipi : send - Giden")
                 print("Sinyal Gucu : " + parametre[1] +" - "+ sinyal(parametre[1]))
@@ -73,9 +73,9 @@ for kod in range(len(komutlar)-1):
             if sinyal(parametre[1]) == "Geçersiz":
                 print("ikinci bolum hatali")
             elif cihaz(parametre[2]) == "Geçersiz":
-                print("ikinci bolum hatali")
+                print("ucuncu bolum hatali")
             elif durum(parametre[3]) == "Geçersiz":
-                print("ikinci bolum hatali")
+                print("dorduncu bolum hatali")
             else:
                 print("Kod Tipi : receive - Gelen")
                 print("Sinyal Gucu : " + parametre[1] + " - " + sinyal(parametre[1]))
